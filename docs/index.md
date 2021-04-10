@@ -4,10 +4,10 @@ It was always about **making something**. I will be making a new robot for mysel
 
 ## Project
 
-### [Project Overview](./overview)
+### [Project Overview](./overview/)
 
 ### [Inverse Kinematics](./)
 
 ## Software
 
-### [Software Structure](./software_structure)
+### [Software Structure](./software_structure/)

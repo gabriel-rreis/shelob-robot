@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
 title: Project Shelob
 description: Project Shelob is a hexapod robot that uses ROS and Python to solve complex navigation problems.
-logo: assets/img/logo.png
+logo: /assets/img/logo.png

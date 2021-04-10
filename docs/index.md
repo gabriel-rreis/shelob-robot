@@ -1,4 +1,4 @@
-# Project Shelob
+# Hexapod Robot: Project Shelob
 
 Apr 3, 2021 
 

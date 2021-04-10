@@ -47,3 +47,7 @@ The first high-level software layer contains the **ROS wrappers for both the act
 ## Hardware Layer
 
 This last layer describes the physical setup of the robot, specifically what **actuators** and/or **sensors** are plugged into the robot computer. The computer could be anything that can run ROS and I will be probably running this from a development computer board like a *Raspberry Pi* or a *BeagleBone* *Board* of sorts. The drivers controls the hobby servos used for this project. Also the sensor devices could be anything hooked up to some force sensing resistors, switches, potentiometers, or cameras.
+
+* * *
+
+[⌫ Back to home](./)

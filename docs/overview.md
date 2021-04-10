@@ -26,3 +26,7 @@ There is plenty of projects like that around and I am yet to find what would be 
 — The Two Towers, "Shelob's Lair", **J. R. R. Tolkien**.
 
 The name is just a reference to my favorite book of all time, Tolkien's Lord of The Rings trilogy. Besides the fact that spiders have eight legs and not six, I think it is a good name for an *Araneae*-like robot.
+
+* * *
+
+[⌫ Back to home](./)

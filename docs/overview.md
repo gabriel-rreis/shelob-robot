@@ -29,4 +29,4 @@ The name is just a reference to my favorite book of all time, Tolkien's Lord of 
 
 * * *
 
-[⌫ Back to home](./../)
+[⌫ Back](./../)

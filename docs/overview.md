@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "overview"
+title: "Overview"
 permalink: /overview/
 ---
 

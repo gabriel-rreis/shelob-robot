@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Overview"
-permalink: /overview/
+title: "Software Structure"
+permalink: /software_structure/
 ---
 
 # Software Structure

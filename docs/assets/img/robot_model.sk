@@ -1,0 +1,245 @@
+## An example of kinematics diagram for a 3-DOF robot arm
+## 
+## Author : Alex Dumitrache <alex@cimr.pub.ro>
+## License: GPL
+
+def blue<>
+input{lib/defaults.sk}
+input{lib/objects.sk}
+
+def J1 180
+def J2 180
+def J3 0
+def J4 90
+
+def arrowarc 
+{
+    sweep [style=thick]{215, rotate(1, [Z])} (1,0)
+    def p1 (1,0) then rotate(210, [Z])
+    def p2 (1,0) then rotate(210+30, [Z])
+    line [style=thick, style=->] (p1)(p2)
+}
+
+% The main drawing
+put {scale(0.25)}
+{   
+    # base
+    put {scale(1)}
+    {
+        put{scale([17,43,3]) * translate([0,0,0])}{box}   
+
+        # leg 
+        
+        # link1
+        put {translate([10,0,0]) * rotate(J1, [Z])}
+        {
+            put{scale([1,1,3])}{cylinder}
+
+            line [style=dashed] (0,0,0)(-6,0,0)
+        
+            # link2
+            put {translate([-6,0,0]) * rotate(-90, [X]) * rotate(J2+90, [Z])}
+            {
+                put{scale([1,1,3])}{cylinder}
+
+                line [style=dashed] (0,0,0)(5,-8,0)
+
+                # link3
+                put {translate([5,-8,0]) * rotate(J3, [Z]) * rotate(-90, [Z])}
+                {
+                    put{scale([1,1,3])}{cylinder}
+
+                    line [style=dashed] (0,0,0)(0,-12,0)
+                    
+                    # end effector
+
+                    put {rotate(J4, [Z]) * translate([-12,0,0])}
+                    {
+                        put{scale([1,1,1])}{box}
+
+                    }
+                }
+            }
+        }
+
+        # leg
+        
+        # link1
+        put {translate([-10,0,0]) * rotate(J1, [Z]) * rotate (180, [Z])}
+        {
+            put{scale([1,1,3])}{cylinder}
+
+            line [style=dashed] (0,0,0)(-6,0,0)
+        
+            # link2
+            put {translate([-6,0,0]) * rotate(-90, [X]) * rotate(J2+90, [Z])}
+            {
+                put{scale([1,1,3])}{cylinder}
+
+                line [style=dashed] (0,0,0)(5,-8,0)
+
+                # link3
+                put {translate([5,-8,0]) * rotate(J3, [Z]) * rotate(-90, [Z])}
+                {
+                    put{scale([1,1,3])}{cylinder}
+
+                    line [style=dashed] (0,0,0)(0,-12,0)
+                    
+                    # end effector
+
+                    put {rotate(J4, [Z]) * translate([-12,0,0])}
+                    {
+                        put{scale([1,1,1])}{box}
+
+                    }
+                }
+            }
+        }
+
+        # leg
+        
+        # link1
+        put {translate([10,20,0]) * rotate(J1, [Z]) * rotate (0+30, [Z])}
+        {
+            put{scale([1,1,3])}{cylinder}
+
+            line [style=dashed] (0,0,0)(-6,0,0)
+        
+            # link2
+            put {translate([-6,0,0]) * rotate(-90, [X]) * rotate(J2+90, [Z])}
+            {
+                put{scale([1,1,3])}{cylinder}
+
+                line [style=dashed] (0,0,0)(5,-8,0)
+
+                # link3
+                put {translate([5,-8,0]) * rotate(J3, [Z]) * rotate(-90, [Z])}
+                {
+                    put{scale([1,1,3])}{cylinder}
+
+                    line [style=dashed] (0,0,0)(0,-12,0)
+                    
+                    # end effector
+
+                    put {rotate(J4, [Z]) * translate([-12,0,0])}
+                    {
+                        put{scale([1,1,1])}{box}
+
+                    }
+                }
+            }
+        }
+
+        # leg
+        
+        # link1
+        put {translate([-10,20,0]) * rotate(J1, [Z]) * rotate (180-30, [Z])}
+        {
+            put{scale([1,1,3])}{cylinder}
+
+            line [style=dashed] (0,0,0)(-6,0,0)
+        
+            # link2
+            put {translate([-6,0,0]) * rotate(-90, [X]) * rotate(J2+90, [Z])}
+            {
+                put{scale([1,1,3])}{cylinder}
+
+                line [style=dashed] (0,0,0)(5,-8,0)
+
+                # link3
+                put {translate([5,-8,0]) * rotate(J3, [Z]) * rotate(-90, [Z])}
+                {
+                    put{scale([1,1,3])}{cylinder}
+
+                    line [style=dashed] (0,0,0)(0,-12,0)
+                    
+                    # end effector
+
+                    put {rotate(J4, [Z]) * translate([-12,0,0])}
+                    {
+                        put{scale([1,1,1])}{box}
+
+                    }
+                }
+            }
+        }
+
+        # leg
+        
+        # link1
+        put {translate([10,-20,0]) * rotate(J1, [Z]) * rotate (0-30, [Z])}
+        {
+            put{scale([1,1,3])}{cylinder}
+
+            line [style=dashed] (0,0,0)(-6,0,0)
+        
+            # link2
+            put {translate([-6,0,0]) * rotate(-90, [X]) * rotate(J2+90, [Z])}
+            {
+                put{scale([1,1,3])}{cylinder}
+
+                line [style=dashed] (0,0,0)(5,-8,0)
+
+                # link3
+                put {translate([5,-8,0]) * rotate(J3, [Z]) * rotate(-90, [Z])}
+                {
+                    put{scale([1,1,3])}{cylinder}
+
+                    line [style=dashed] (0,0,0)(0,-12,0)
+                    
+                    # end effector
+
+                    put {rotate(J4, [Z]) * translate([-12,0,0])}
+                    {
+                        put{scale([1,1,1])}{box}
+
+                    }
+                }
+            }
+        }
+
+        # leg
+        
+        # link1
+        put {translate([-10,-20,0]) * rotate(J1, [Z]) * rotate (180+30, [Z])}
+        {
+            put{scale([1,1,3])}{cylinder}
+
+            line [style=dashed] (0,0,0)(-6,0,0)
+        
+            # link2
+            put {translate([-6,0,0]) * rotate(-90, [X]) * rotate(J2+90, [Z])}
+            {
+                put{scale([1,1,3])}{cylinder}
+
+                line [style=dashed] (0,0,0)(5,-8,0)
+
+                # link3
+                put {translate([5,-8,0]) * rotate(J3, [Z]) * rotate(-90, [Z])}
+                {
+                    put{scale([1,1,3])}{cylinder}
+
+                    line [style=dashed] (0,0,0)(0,-12,0)
+                    
+                    # end effector
+
+                    put {rotate(J4, [Z]) * translate([-12,0,0])}
+                    {
+                        put{scale([1,1,1])}{box}
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+global 
+{ 
+    language tikz 
+    camera rotate(0, (1,0,0)) * view((1.5,2,1),(0,0,0),[0,0,1]) * rotate(110, (0,0,1))
+}
+
+

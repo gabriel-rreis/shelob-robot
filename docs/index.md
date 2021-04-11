@@ -11,7 +11,7 @@ It was always about **making something**. I will be making a new robot for mysel
 
 ### [Project Overview](./overview/)
 
-### [Inverse Kinematics](./)
+### [Inverse Kinematics](./kinematics/)
 
 ## Software
 

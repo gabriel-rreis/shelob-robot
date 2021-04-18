@@ -18,3 +18,7 @@ It was always about **making something**. I will be making a new robot for mysel
 ## Software
 
 ### [Software Structure](./software_structure/)
+
+## Mechanical Project
+
+### [Servomotors](./servomotors)

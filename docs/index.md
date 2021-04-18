@@ -21,4 +21,4 @@ It was always about **making something**. I will be making a new robot for mysel
 
 ## Mechanical Project
 
-### [Servomotors](./servomotors)
+### [Servomotors](./servomotors/)

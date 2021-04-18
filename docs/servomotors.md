@@ -1,14 +1,14 @@
 ---
 layout: default
-title: "Inverse Kinematics"
-permalink: /kinematics/
+title: "Servomotors"
+permalink: /servomotors/
 ---
 
-# Actuators
+# Servomotors
 
 Apr 18, 2021 
 
-Servomotors are userd for most robotics projects. From wikipedia:
+Servomotors one of the most commom actuators used for robotics projects. From wikipedia:
 
 > A servomotor is a rotary actuator or linear actuator that allows for **precise control** of angular or linear position, velocity and acceleration. It consists of a suitable motor coupled to a sensor for **position feedback**. It also requires a relatively sophisticated controller, often a dedicated module designed specifically for use with servomotors. Servomotors are not a specific class of motor, although the term servomotor is often used to refer to a **motor suitable for use in a closed-loop control system**.
 

@@ -40,6 +40,8 @@ As a framework, ROS is maintained by the community. This maintenance includes **
 
 ROS is composed of elements that together can form a **graph** is comprised of many **nodes** working in concert**.** For more on the ROS concepts like graph, nodes, topics, services, services, parameters, and actions, consider reading the [ROS2 official documentation](https://docs.ros.org/en/foxy/Tutorials.html). 
 
+![ROS Graph](https://docs.ros.org/en/foxy/_images/Nodes-TopicandService.gif)
+
 ## ROS Version
 
 In this project, I will be using ROS2 Foxy running from my computer (Arch Linux) and on the embedded boards (Debian Linux).

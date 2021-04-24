@@ -19,6 +19,8 @@ It was always about **making something**. I will be making a new robot for mysel
 
 ### [Software Structure](./software_structure/)
 
+### [ROS](./ros/)
+
 ## Mechanical Project
 
 ### [Servomotors](./servomotors/)

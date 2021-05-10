@@ -23,7 +23,7 @@ Then I found out that I have never even opened the Pi 3, even if it was somethin
 
 From AVR micro-controllers running `rosbridge` or `rosserial` to fully-fledged CPU with Intel i5 processors like the *Intel NUC D54250* that obviously could run the whole suite with `roscpp` or `rospy`. While researching, I understood that there were two types of embedded ROS: "bridged" and unified. The *bridged* architecture is mostly for boards with low processing power or without the proper tools to run a complete ROS framework. But the unified architecture seemed simpler if you got the power for it, it's possible to run your code wherever it's best. 
 
-![ROS for embedded](/assets/img/ros_embedded.png))
+![ROS for embedded](/assets/img/ros_embedded.png)
 
 With that in mind, it would be best to have more CPU power and avoid complexity. For the first version I will be using a **Raspberry Pi 3 B+** for two main reasons:
 
@@ -39,12 +39,6 @@ The Lite version is a minimal operating system, so This would give room to inver
 I tried to use the [official instructions](https://docs.ros.org/en/foxy/Installation/Ubuntu-Development-Setup.html#install-development-tools-and-ros-tools) for build ROS2 on Ubuntu, but had to make some adjustments on the build configurations to avoid getting errors like this one after eleven hours of waiting:
 
 ```bash
-c++: fatal error: Killed signal terminated program cc1plus
-compilation terminated.
-make[2]: *** [src/cpp/CMakeFiles/fastrtps.dir/build.make:830: src/cpp/CMakeFiles/fastrtps.dir/fastdds/domain/DomainParticipantImpl.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:959: src/cpp/CMakeFiles/fastrtps.dir/all] Error 2
-make: *** [Makefile:163: all] Error 2
----
 Failed   <<< fastrtps [11h 8min 33s, exited with code 2]
 Aborted  <<< test_osrf_testing_tools_cpp [10h 44min 41s]                                            
 Aborted  <<< rttest [10h 45min 21s]                                                                 

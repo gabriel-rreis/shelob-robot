@@ -21,6 +21,10 @@ It was always about **making something**. I will be making a new robot for mysel
 
 ### [ROS](./ros/)
 
+## Electronics
+
+### [Embedded Software](./embedded)
+
 ## Mechanical Project
 
 ### [Servomotors](./servomotors/)

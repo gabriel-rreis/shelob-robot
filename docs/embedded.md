@@ -139,11 +139,25 @@ This step is a simple command but a lot of waiting. I limited the compiler to on
 MAKEFLAGS="-j1 -l1" colcon build --symlink-install --packages-skip-build-finished --continue-on-error --parallel-workers 2
 ```
 
-And then I left it to work. Because I was running it headless and without a graphical interface, the command line via SSH was responsive and I could check on it once in a while.
+And then I left it to work. Because I was running it headless and without a graphical interface, the command line via SSH was responsive and I could check on it once in a while. It took me 3 hours to compile everything.
 
-### Step 4: Expected errors and more waiting
+### Step 4: Testing communication
 
-TODO
+In one terminal, I opened an SSH connection to the Raspberry Pi and instantiated a `talker` node from the demos:
+
+```bash
+export = ROS_DOMAIN_ID=42
+. ~/ros2_foxy/install/local_setup.bash
+ros2 run demo_nodes_py talker
+```
+
+In another terminal, this time without the SSH connection, source the setup file and then run a `listener`:
+
+```bash
+export = ROS_DOMAIN_ID=42
+. ~/ros2_foxy/install/local_setup.bash
+ros2 run demo_nodes_py listener
+```
 
 * * *
 

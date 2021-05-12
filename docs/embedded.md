@@ -146,7 +146,7 @@ And then I left it to work. Because I was running it headless and without a grap
 In one terminal, I opened an SSH connection to the Raspberry Pi and instantiated a `talker` node from the demos:
 
 ```bash
-export = ROS_DOMAIN_ID=42
+export ROS_DOMAIN_ID=42
 . ~/ros2_foxy/install/local_setup.bash
 ros2 run demo_nodes_py talker
 ```
@@ -154,7 +154,7 @@ ros2 run demo_nodes_py talker
 In another terminal, this time without the SSH connection, source the setup file and then run a `listener`:
 
 ```bash
-export = ROS_DOMAIN_ID=42
+export ROS_DOMAIN_ID=42
 . ~/ros2_foxy/install/local_setup.bash
 ros2 run demo_nodes_py listener
 ```

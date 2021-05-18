@@ -19,4 +19,4 @@ In anyway, here is the modeling for a leg of the hexapod:
 
 * * *
 
-[⌫ Back](./../)
+[⌫ Back](./../../)

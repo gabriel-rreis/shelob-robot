@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Servomotors"
-permalink: /servomotors/
+permalink: /posts/20210418-servomotors/
 ---
 
 # Servomotors

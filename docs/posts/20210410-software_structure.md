@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Software Structure"
-permalink: /software_structure/
+permalink: /posts/20210410-software_structure/
 ---
 
 # Software Structure

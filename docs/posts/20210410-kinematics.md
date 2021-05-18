@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Inverse Kinematics"
-permalink: /kinematics/
+permalink: /posts/20210410-kinematics/
 ---
 
 # Inverse Kinematics

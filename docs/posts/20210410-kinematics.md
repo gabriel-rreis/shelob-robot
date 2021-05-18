@@ -15,7 +15,7 @@ There are two type of solutions that I would like to try on this project:
 
 In anyway, here is the modeling for a leg of the hexapod:
 
-![Leg Modeling](/assets/img/leg_model.png)
+![Leg Modeling](/../assets/img/leg_model.png)
 
 * * *
 

@@ -32,7 +32,7 @@ But there is a cheaper alternative. For years hobbyists with a lower need for pr
 
 This type of servomotor normally is made with cheap materials and with lower specs, but there are few companies that are famous for their metal-geared servomotors like HiTec and TowerPro. The last one is the one commonly used in hexapod robots for the high return for a lower price.
 
-![Multi-purpose Servomotor Bracket](/assets/img/servomotor_open.png)
+![Multi-purpose Servomotor Bracket](/../assets/img/servomotor_open.png)
 
 ##### Metal gears made with some brass like material (at least it's not plastic).
 
@@ -55,8 +55,12 @@ For this project, I will be using [*TowerPro MG 996R*](https://components101.com
 
 The fixations provide on the servo body are not ideal for joints so I will use a multi-purpose mount plate that also is readily available.
 
-![Servomotor with Metal Gears](/assets/img/servo_bracket.png)
+![Servomotor with Metal Gears](/../assets/img/servo_bracket.png)
 
 As for the horn, it's usually a mess to use the original plastic ones. Not only it's a very soft plastic but the provided holes are much too small for mechanical coupling and are not threaded. With a metal horn with M3 screws, the assembly would be easier and more reliable.
 
-![Metal Servo Horn](/assets/img/servo_horn.png)
+![Metal Servo Horn](/../assets/img/servo_horn.png)
+
+* * *
+
+[⌫ Back](./../../)
